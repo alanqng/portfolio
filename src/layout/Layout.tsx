@@ -1,13 +1,12 @@
 import React from 'react'
 
 import { Container } from './LayoutStyles'
+import Header from "../components/Header";
 
 export const Layout: React.FC = ({children}) => {
     return (
         <Container>
-            <div>
-                Header
-            </div>
+            <Header />
             <main>{children}</main>
             <div>
                 Footer

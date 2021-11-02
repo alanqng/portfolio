@@ -6,7 +6,6 @@ function App() {
   return (
     <Theme>
      <Layout>
-
      </Layout>
     </Theme>
 
