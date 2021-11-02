@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import Theme from './Theme'
+import {Layout} from "./layout/Layout";
 
 function App() {
   return (
     <Theme>
-         <div >
-    
-    </div>
+     <Layout>
 
+     </Layout>
     </Theme>
-   
+
   );
 }
 
