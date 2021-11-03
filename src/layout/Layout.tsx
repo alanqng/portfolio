@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Container } from './LayoutStyles'
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 
 export const Layout: React.FC = ({children}) => {
     return (

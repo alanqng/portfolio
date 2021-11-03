@@ -11,19 +11,13 @@ const Header: React.FC = () => (
         </Div1>
         <Div2>
             <li>
-                <a href="#projects">
-                    <NavLink>Projects</NavLink>
-                </a>
+                    <NavLink href="#projects">Projects</NavLink>
             </li>
             <li>
-                <a href="#tech">
-                    <NavLink>Technologies</NavLink>
-                </a>
+                    <NavLink href="#tech">Technologies</NavLink>
             </li>
             <li>
-                <a href="#about">
-                    <NavLink>About</NavLink>
-                </a>
+                    <NavLink href="#about">About</NavLink>
             </li>
         </Div2>
         <Div3>
