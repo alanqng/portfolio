@@ -4,6 +4,7 @@ import {Layout} from "./layout/Layout";
 import {Section} from "./GlobalComponents";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
+import Technologies from "./components/technologies/Technologies";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
              <Hero/>
          </Section>
          <Projects/>
+         <Technologies/>
      </Layout>
     </Theme>
 

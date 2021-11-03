@@ -10,7 +10,6 @@ const Projects: React.FC = () => (
         <SectionTitle main>Projects</SectionTitle>
         <GridContainer>
             {projects.map((p, i) => {
-                // import p.image from "../"
                 return (
                     <BlogCard key={i}>
                         <Img src={p.image} />
