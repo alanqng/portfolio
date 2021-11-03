@@ -6,7 +6,7 @@ import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
 import Technologies from "./components/technologies/Technologies";
 
-function App() {
+const App: React.FC = () => {
   return (
     <Theme>
      <Layout>

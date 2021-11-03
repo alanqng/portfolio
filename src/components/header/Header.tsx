@@ -21,13 +21,13 @@ const Header: React.FC = () => (
             </li>
         </Div2>
         <Div3>
-            <SocialIcons href="https://google.com">
+            <SocialIcons href="https://github.com/alanqng">
                 <AiFillGithub size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://google.com">
+            <SocialIcons href="https://www.linkedin.com/in/alanqng/">
                 <AiFillLinkedin size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://google.com">
+            <SocialIcons href="https://www.instagram.com/alanq_ng/">
                 <AiFillInstagram size="3rem"/>
             </SocialIcons>
         </Div3>
