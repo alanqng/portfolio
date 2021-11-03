@@ -76,3 +76,42 @@ export const SectionText = styled.p`
   }
 `
 
+export const SectionDivider = styled.div<{colorAlt?: boolean; divider?: boolean}>`
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: ${(props) => props.colorAlt ?
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
+    margin: ${(props) => props.divider ? "4rem 0" : "" };
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 48px;
+    height: 4px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 32px;
+    height: 2px;
+  }
+`
+export const SectionSubText = styled.p`
+  max-width: 800px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.75);
+
+@media ${(props) => props.theme.breakpoints.md} {
+    max-width: 672px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 14px;
+    line-height: 22px;
+  }
+`
