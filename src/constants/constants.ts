@@ -10,7 +10,7 @@ export const projects = [
     },
     {
         title: 'Catch of the Day',
-        description: "Using React andFirebase. This app is an example of an ecommerce food store where the user can browse to the menu and add items to buy. And the owner can add more items into the menu",
+        description: "Using React and Firebase. This app is an example of an ecommerce food store where the user can browse to the menu and add items to buy. And the owner can add more items into the menu",
         image: '/images/image2.png',
         tags: ['React', 'Firebase'],
         source: 'https://github.com/alanqng/catch-of-the-day',
@@ -24,5 +24,5 @@ export const TimeLineData = [
     { year: 2018, text: 'Started the shift to web development taking a few online courses' },
     { year: 2019, text: 'Started as Frontend Developer at Siemens' },
     { year: 2020, text: 'Working at Siemens by the end of the year started as a FullStack Developer at Flaconi' },
-    { year: 2021, text: 'Working at Flaconi and started freelance project' },
+    { year: 2021, text: 'Working at Flaconi and started freelancing' },
 ];
