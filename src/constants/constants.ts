@@ -18,3 +18,11 @@ export const projects = [
         id: 1,
     },
 ];
+
+export const TimeLineData = [
+    { year: 2016, text: 'Started my journey working as an Automation Engineer for ABB' },
+    { year: 2018, text: 'Started the shift to web development taking a few online courses' },
+    { year: 2019, text: 'Started as Frontend Developer at Siemens' },
+    { year: 2020, text: 'Working at Siemens by the end of the year started as a FullStack Developer at Flaconi' },
+    { year: 2021, text: 'Working at Flaconi and started freelance project' },
+];

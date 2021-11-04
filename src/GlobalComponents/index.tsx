@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Section = styled.section<{grid?: boolean, row?: boolean, nopadding?: boolean}>`
+export const Section = styled.section<{grid?: boolean; row?: boolean; nopadding?: boolean; centered?: boolean}>`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
@@ -10,6 +10,7 @@ export const Section = styled.section<{grid?: boolean, row?: boolean, nopadding?
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  align-items: ${(props) => props.centered ? "center" : "normal" } ;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;

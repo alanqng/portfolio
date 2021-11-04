@@ -1,10 +1,10 @@
 import React from 'react';
 import {Section, SectionText, SectionTitle} from "../../GlobalComponents";
-import {LeftSection} from "./HeroStyles";
+import {LeftSection, Img} from "./HeroStyles";
 
 const Hero: React.FC = (props) => (
     <>
-        <Section row nopadding>
+        <Section row nopadding centered>
             <LeftSection>
                 <SectionTitle main>
                     Frontend Developer <br />
@@ -15,9 +15,7 @@ const Hero: React.FC = (props) => (
                 </SectionText>
                 {/*<Button onClick={props.handleClick}>Learn More</Button>*/}
             </LeftSection>
-            <div>
-                test
-            </div>
+            <Img src={'/images/Alan.jpeg'} />
         </Section>
     </>
 );

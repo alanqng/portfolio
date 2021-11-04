@@ -5,6 +5,7 @@ import {Section} from "./GlobalComponents";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
 import Technologies from "./components/technologies/Technologies";
+import Timeline from "./components/timeline/Timeline";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
          </Section>
          <Projects/>
          <Technologies/>
+         <Timeline />
      </Layout>
     </Theme>
 

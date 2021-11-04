@@ -17,3 +17,11 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Img = styled.img`
+  width:50%;
+  height:50%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+`
