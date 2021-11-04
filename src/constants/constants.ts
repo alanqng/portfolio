@@ -9,13 +9,22 @@ export const projects = [
         id: 0,
     },
     {
+        title: 'Perfume Catalog',
+        description: "Using React, Hooks and Context. This app is an example of an ecommerce catalog providing pagination, filtering and search functionalities.",
+        image: '/images/image4.png',
+        tags: ['React', 'Context'],
+        source: 'https://github.com/alanqng/perfume-catalog',
+        visit: '',
+        id: 1,
+    },
+    {
         title: 'Catch of the Day',
         description: "Using React and Firebase. This app is an example of an ecommerce food store where the user can browse to the menu and add items to buy. And the owner can add more items into the menu",
         image: '/images/image2.png',
         tags: ['React', 'Firebase'],
         source: 'https://github.com/alanqng/catch-of-the-day',
         visit: '',
-        id: 1,
+        id: 2,
     },
 ];
 

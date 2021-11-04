@@ -8,7 +8,7 @@ const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
     const [activeItem, setActiveItem] = useState(0);
-    const carouselRef = useRef();
+    const carouselRef = useRef<React.MutableRefObject<any>>();
 
     const scroll = (node: any, left: number) => {
         return node.scrollTo({ left, behavior: 'smooth' });
